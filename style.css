@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+
+.header h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.header ul li a{
+    color: #e5e5e5;
+
+}
+
+.main-1{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 150px;
+}
+
+.left{
+    margin: 100px;
+    padding: 50px;
+}
+
+.main-1 .left h1{
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.main-1 p{
+    font-size: 18px;
+    color: #e5e5e5;
+}
+
+.main-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-2 h2{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 250px;
+}
+
+.card p{
+    margin: 20px 0;
+}
+
+#card{
+    border: 4px solid #3882f6;
+    width: 160px;
+    height: 160px;
+    border-radius: 25px;
+}
+
+.main-3{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5e7eb;
+    padding: 80px 567px;
+}
+
+.main-3 em{
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.main-3 p{
+    align-self: flex-end;
+    font-weight: bolder;
+    padding-right: 81px;
+    font-size: 25px;
+}
+
+.sign-up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5em 13em;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 40%;
+    padding: 3em;
+    border-radius: 10px;
+}
+
+.container .left h3{
+    color: white;
+    font-size: 24px;
+}
+
+.container .left p{
+    color: white;
+    font-size: 18px;
+}
+
+.container .right button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px 60px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    padding: 60px 0;
+}
